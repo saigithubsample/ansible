@@ -1,8 +1,7 @@
 - name: install nginx
   hosts: app
   tasks:
-   -name: install naginx
+   - name: install naginx
      ansible.builtin.package:
-     name: nginx
-     stats: present
-     
+      name: nginx
+      stats: present
