@@ -1,7 +1,7 @@
 
 - name: variables from files
   hosts: app
-  var_files:
+  vars_files:
   - var.yaml
   tasks:
   - name: print the couser details
