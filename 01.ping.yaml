@@ -1,5 +1,7 @@
-- name: ping the server
-  Host: web  #which host want to ping
+
+
+- name: ping 
+  hosts: web  #which host want to ping
   tasks: #list of tasks/modules/collections
   - name: ping the server
     ansible.buildin.ping: 
