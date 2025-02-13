@@ -4,7 +4,7 @@
   hosts: web  #which host want to ping
   tasks: #list of tasks/modules/collections
   - name: ping the server
-    ansible.buildin.ping: 
+    ansible.builtin.ping: 
     
 
  
