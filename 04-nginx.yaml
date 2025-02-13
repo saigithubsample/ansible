@@ -4,4 +4,5 @@
    - name: install naginx
      ansible.builtin.package:
       name: nginx
-      stats: present
+      stats: install
+      
