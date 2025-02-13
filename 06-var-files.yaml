@@ -1,4 +1,4 @@
-- name: print variables
+- name: print variables from files
   hosts: app
   var_files:
   - var.yaml
