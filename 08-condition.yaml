@@ -9,10 +9,10 @@
   - name: print if the number less than 10
     ansible.buildin.debug:
      msg: "the given number is less than 10"
-    when: number < 10
+    when: number | int < 10
   - name: print the given number is greather than or equal to 10
     ansible.buildin.debug:
      msg: "the given number is greather than or equal to 10"
-    when: number >= 10 
+    when: number | int >= 10 
 
 
