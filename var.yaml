@@ -1,5 +1,4 @@
-vars:
+
  COURSE: "DevOps with AWS"
- DURATIONS: "120Hrs"
+ DURATION: "120Hrs"
  TRAINER: "Siva Kumar"
- 
