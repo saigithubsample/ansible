@@ -1,7 +1,7 @@
 - name: print vars
   hosts: app
-  vars_files:
-  - vars.yaml
+  var_files:
+  - var.yaml
   tasks:
   - name: print the couser details
     ansible.builtin.debug:
