@@ -1,8 +1,8 @@
-- Name: ping the server
+- name: ping the server
   Host: web  #which host want to ping
   tasks: #list of tasks/modules/collections
-  - Name: ping the server
+  - name: ping the server
     ansible.buildin.ping: 
-    data: connect to server
+    
 
  
