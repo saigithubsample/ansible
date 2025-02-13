@@ -9,7 +9,6 @@
   - name: print the info
     ansible.builtin.debug:
      msg: "Im learning {{COURSE}}, Duration is: {{DURATION}}; Trainer is : {{TRAINER}}"
-
   - name: print the information again
     vars:
      COURSE: "ansible"
@@ -19,5 +18,5 @@
 
   - name: print the info again and again
     
-    ansible.builtin.debug:
-     msg: "Im learning {{COURSE}}, Duration is: {{DURATION}}; Trainer is : {{TRAINER}}"   
+     ansible.builtin.debug:
+      msg: "Im learning {{COURSE}}, Duration is: {{DURATION}}; Trainer is : {{TRAINER}}"   
