@@ -1,0 +1,8 @@
+- name: print vars
+  hosts: app
+  vars_files:
+  - vars.yaml
+  tasks:
+  - name: print the couser details
+    ansible.builtin.debug:
+      msg: "im learning {{COURSE}} and duration is: {{DURATION}} ad the trainer is: {{TRAINER}}" 
