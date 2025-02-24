@@ -3,11 +3,11 @@
   
   vars_prompt:
     - name: course
-      prompt: please enter the course name:
+      prompt: please enter the course name
     - name: duration
-      prompt: please enter the course name:
+      prompt: please enter the course name
     - name: trainer
-      prompt: please enter the course name:
+      prompt: please enter the course name
 
   tasks:    
    - name: print the course details
