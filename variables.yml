@@ -1,9 +1,8 @@
 - name: print the variables
   hosts: web
-  vars:
-    course: DevOps with Aws
-    duration: 120 Hrs
-    trainer: SivaKumar Reddy
+  vars_files:
+   -var.yaml
+  
   tasks:
   - name: print the variables
     ansible.builtin.debug:
