@@ -1,0 +1,6 @@
+- name: multipl plays
+  hosts: web
+  tasks:
+  - name: PLAY1 and TASK1
+    ansible.builtin.debug:
+    
