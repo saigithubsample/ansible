@@ -2,7 +2,6 @@
   hosts: web
   vars_files:
    -var.yaml
-  
   tasks:
   - name: print the variables
     ansible.builtin.debug:
