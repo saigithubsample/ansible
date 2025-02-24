@@ -1,5 +1,6 @@
 - name: intsll nginc and run
   hosts: web
+  become: true
   tasks:
   - name: install nginx
     ansible.builtin.package:
