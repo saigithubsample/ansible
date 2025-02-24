@@ -8,3 +8,14 @@
   - name: print the variables
     ansible.builtin.debug:
      msg: "HI,Im learning {{course}}, Duraion is : {{duration}} ; Trainer is : {{trainer}} "
+
+  - name: print the variables
+    vars:
+     course: Ansible
+    ansible.builtin.debug:
+     msg: "HI,Im learning {{course}}, Duraion is : {{duration}} ; Trainer is : {{trainer}} " 
+
+  - name: print the variables
+    ansible.builtin.debug:
+     msg: "HI,Im learning {{course}}, Duraion is : {{duration}} ; Trainer is : {{trainer}} "
+
