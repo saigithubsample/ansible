@@ -1,4 +1,5 @@
-- name: print the data
+
+- name: print the course details
   hosts: web
   vars:
   course: DevOps with AWS
