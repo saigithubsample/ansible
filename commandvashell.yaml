@@ -2,6 +2,6 @@
   hosts: web
   tasks:
   - name: print the list of files
-    ansible.builtin.shell:
-     msg: "ls -ltr > /tmp/output.txt"
+    ansible.builtin.shell: ls -ltr > /tmp/output.txt
+    
    
