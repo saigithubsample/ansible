@@ -18,5 +18,5 @@
   tasks:
   - name: print the courde info
     ansible.builtin.debug:
-     msg: "im learning{{course}} and duration is {{duration}} trainer is: {{trainer}} and topics are :{{topics}} ans live: {{live}}
+     msg: "im learning {{course}} and duration is {{duration}} trainer is: {{trainer}} and topics are :{{topics}} ans live: {{live}}
         tools are: {{tools}}" 
