@@ -1,7 +1,7 @@
-- name: print the values
+- name: print the files
   hosts: web
   tasks:
-  - name: print the list of servers
+  - name: print the list of files
     ansible.builtin.shell:
-     msg: "la -ltr > /tmp/output.txt"
+     msg: "ls -ltr > /tmp/output.txt"
    
