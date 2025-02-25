@@ -1,0 +1,6 @@
+- name: print the values
+  hosts: web
+  tasks:
+  - name: peith the list of servers
+    ansible.builtin.command:
+     msg: "la -ltr > /tmp/output.txt"
