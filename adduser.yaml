@@ -9,6 +9,6 @@
     ansible.builtin.debug:
      msg: "user info : {{user}}"  
   - name: create user
-    ansible.builtin.command: id exxpense
+    ansible.builtin.command: useradd exxpense
     when: user.rc != 0
     
