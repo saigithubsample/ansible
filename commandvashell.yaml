@@ -1,6 +1,9 @@
 - name: print the values
   hosts: web
   tasks:
-  - name: peith the list of servers
-    ansible.builtin.command:
+  - name: print the list of servers
+    ansible.builtin.shell:
      msg: "la -ltr > /tmp/output.txt"
+  - name: print the list of servers
+    ansible.builtin.shell:
+     msg: "ps- ef | grep ssh"   
