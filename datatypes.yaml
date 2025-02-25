@@ -12,11 +12,11 @@
     - jenkins
     live: true
     tools:
-    ci: jenkins
-    conf: ansible
-    cloud: aws
+      ci: jenkins
+      conf: ansible
+      cloud: aws
 
   tasks:
   - name: print the courde info
     ansible.builtin.debug:
-     msg: "im learning {{course}} and duration is {{duration}} trainer is: {{trainer}} and topics are :{{topics}} ans live: {{live}}tools are: {{tools}}" 
+     msg: "im learning {{course}} and duration is {{duration}} trainer is: {{trainer}} and topics are :{{topics}} and live: {{live}} and tools are:{{tools}}" 
