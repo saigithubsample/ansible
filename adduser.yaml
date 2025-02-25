@@ -7,3 +7,4 @@
   - name: print the user info
     ansible.builtin.debug:
      msg: "user info : {{user}}"  
+    ignore_errors: true 
