@@ -8,4 +8,7 @@
   - name: print the user info
     ansible.builtin.debug:
      msg: "user info : {{user}}"  
+  - name: create user
+    ansible.builtin.command: id exxpense
+    when: user.rc != 0
     
