@@ -1,0 +1,13 @@
+- name: print the values
+  hosts: web
+  tasks:
+  - name: convert to upper case
+    vars: 
+     greeting: "Hello Sai"
+    ansible.builtin.package:
+     msg: "{{greeting | upper}}" 
+  - name: convert to lower case
+    vars: 
+     greeting: "Hello Sai"
+    ansible.builtin.package:
+     msg: "{{greeting | lower}}"    
