@@ -16,3 +16,13 @@
      numbers: [1,2,4,6,33,44,55,4,21,2,1 ] 
     ansible.builtin.debug:
      msg: "{{ numbers | unique }}"     
+  - name: get the max values
+    vars: 
+     numbers: [1,2,4,6,33,44,55,4,21,2,1 ] 
+    ansible.builtin.debug:
+     msg: "{{ numbers | max }}"   
+  - name: get themin values
+    vars: 
+     numbers: [1,2,4,6,33,44,55,4,21,2,1 ] 
+    ansible.builtin.debug:
+     msg: "{{ numbers | min }}"    
