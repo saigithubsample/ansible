@@ -4,10 +4,10 @@
   - name: convert to upper case
     vars: 
      greeting: "Hello Sai"
-    ansible.builtin.package:
+    ansible.builtin.debug:
      msg: "{{ greeting | upper }}" 
   - name: convert to lower case
     vars: 
      greeting: "Hello Sai"
-    ansible.builtin.package:
+    ansible.builtin.debug:
      msg: "{{ greeting | lower }}"    
