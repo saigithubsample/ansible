@@ -7,6 +7,10 @@
   - name: check the connection
     ansible.builtin.shell: ps -ef | grep ssh
     register: output
+  - name: check the connection
+    ansible.builtin.debug:
+     msg: "print the pid {{output}}"
+    
 
     
    
