@@ -1,0 +1,5 @@
+- name: print the values
+  host: web
+  tasks: 
+  - name: execute the command
+    ansible.builtin.shell: ls -ltr > /tmp/out.txt
