@@ -5,9 +5,9 @@
     vars: 
      greeting: "Hello Sai"
     ansible.builtin.package:
-     msg: "{{greeting | upper}}" 
+     msg: "{{ greeting | upper }}" 
   - name: convert to lower case
     vars: 
      greeting: "Hello Sai"
     ansible.builtin.package:
-     msg: "{{greeting | lower}}"    
+     msg: "{{ greeting | lower }}"    
