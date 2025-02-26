@@ -2,7 +2,7 @@
   hosts: web
   tasks:
   - name: print the list of files
-    ansible.builtin.shell: ls -ltr > /tmp/output.txt
+    ansible.builtin.shell: ls -ltr > /tmp/text.txt
 
   - name: check the connection
     ansible.builtin.shell: ps -ef | grep ssh
